@@ -5,7 +5,7 @@ all: build
 
 build: 
 	@mkdir -p $(DST)
-	$(GO) build src/main.go
+	$(GO) build main.go
 	@mv main dst
 
 get:
