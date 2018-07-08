@@ -1,13 +1,16 @@
 # goec2tag
 
+[![Build Status](https://travis-ci.org/falgon/goec2tag.svg?branch=master)](https://travis-ci.org/falgon/goec2tag)
+
+Instant CLI tool for mechanically manipulating AWS EC2 tags. build:
 ```sh
-go get goec2tag
+$ git clone https://github.com/falgon/goec2tag && cd goec2tag && make get && make
 ```
 
 ## Usage
 
 ```sh
- ./dst/main --help
+$ ./dst/main --help
 Usage of ./dst/q3:
   -addT
         Give the tag to the instance.
